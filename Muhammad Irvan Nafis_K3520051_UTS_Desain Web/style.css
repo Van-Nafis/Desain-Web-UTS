@@ -1,0 +1,131 @@
+
+#wrap{
+    width: 87%;
+    height: 90%;
+    margin: 0 auto;
+    background-color: rgb(105, 90, 236);
+}
+
+#judul{
+    font-size: 60px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(115, 200, 230);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-top: 10px;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,.25);
+}
+
+#menu ul{
+    float: right;
+    background: darkblue;
+    padding: 0 0px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0,0,0,.25);
+    list-style: none;
+    width: 730px;
+}
+
+#menu ul:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#menu ul li{
+    float: left;
+}
+
+#menu ul li:hover{
+    background: blue;
+}
+
+#menu ul li a{
+    display: block;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+#menu ul li:hover a{
+    color: white;
+}
+
+#kiri{
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: rgb(243, 239, 13);
+    width: 350px;
+    height: auto;
+    float: left;
+    box-shadow: 0 0 10px rgba(0,0,0,.25);
+}
+
+#kiri h2{
+    margin: 0px 0 0px 0;
+    padding: 5px 12px;
+    color: white;
+    font-size: 20px;
+    background: rgb(0, 0, 0);
+}
+
+#kiri tbody{
+    display: block;
+    padding: 5px 15px;
+    color: black;
+}
+
+#konten{
+    background-color: white;
+    width: 690px;
+    height: 350px;
+    margin: 0 0 20px;
+    padding: 20px 20px 20px 20px;
+    float: right;
+    box-shadow: 0 0 10px rgba(0,0,0,.25);
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.posttitle{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Arial;
+    color: blue;
+}
+
+p{
+    font-size: 30px;
+}
+
+b a{
+    color: blue;
+    text-decoration: none;
+}
+
+img{
+    width: auto;
+    height: 350px;
+}
+#logo{
+    width: 200px;
+    height: auto;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+#footer{
+    background-color: rgb(115, 200, 230);
+    padding: 20px 0 0 0;
+    width: 100%;
+    height: 10px;
+    margin-top: 20px;
+    clear: both;
+    text-align: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
